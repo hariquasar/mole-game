@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url("mario-bg.jpg");
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    /* background-color: green; */
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-image: url("soil.png");
+    background-size: cover;
+    border: 3px solid wheat;
+    border-radius: 25px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image: url("pipe.png");
+    background-size: cover;
+}
+
+#board div img{
+    width:100px;
+    height: 100px;
+}
+
